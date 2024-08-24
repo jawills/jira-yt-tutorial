@@ -53,6 +53,9 @@ global class OpportunityChangeEvent {
     global String OrderNumber__c;
     global String CurrentGenerators__c;
     global String MainCompetitors__c;
+    global String JIRA_Fix_Version_Name__c;
+    global String JIRA_Project_Id__c;
+    global String JIRA_Version_Id__c;
 
     global OpportunityChangeEvent () 
     {

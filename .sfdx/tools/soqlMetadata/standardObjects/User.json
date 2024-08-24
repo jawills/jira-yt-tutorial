@@ -8028,6 +8028,23 @@
       "relationshipName": "Individual",
       "sortable": true,
       "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "JIRA User Id",
+      "name": "JIRA_User_Id__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
     }
   ],
   "label": "User",

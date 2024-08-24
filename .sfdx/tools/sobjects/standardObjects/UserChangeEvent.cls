@@ -184,6 +184,7 @@ global class UserChangeEvent {
     global Boolean IsProfilePhotoActive;
     global Individual Individual;
     global Id IndividualId;
+    global String JIRA_User_Id__c;
 
     global UserChangeEvent () 
     {

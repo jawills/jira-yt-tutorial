@@ -194,6 +194,7 @@ global class User {
     global Boolean IsProfilePhotoActive;
     global Individual Individual;
     global Id IndividualId;
+    global String JIRA_User_Id__c;
     global List<AcceptedEventRelation> AcceptedEventRelations;
     global List<Account> Accounts__r;
     global List<AccountCleanInfo> AccountCleanInfoReviewers;
