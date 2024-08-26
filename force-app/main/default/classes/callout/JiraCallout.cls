@@ -59,4 +59,16 @@ public with sharing class JiraCallout {
     public static HttpResponse createVersion(String version){
         return httpHelper('version','POST', version);
     }
+
+    /**
+     * @param params Jira Issue search query parameters
+     */
+    public static HttpResponse getIssues(Map<String, String> params){
+        String endpoint = 'search?';
+        for(String key: params.keySet()){
+            endpoint += key + '=' + params.get(key) + '&';
+        }
+
+        return httpHelper(endpoint, 'GET', null);
+    }
 }
